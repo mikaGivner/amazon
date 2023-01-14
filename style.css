@@ -339,6 +339,7 @@ main{
   width: 100vw;
  padding:0 5rem;
  display: flex;
+ border: none;
 }
 .leftMain{
   display: flex;
