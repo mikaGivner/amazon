@@ -1,0 +1,615 @@
+
+@font-face {
+  font-family: "Amazon Ember";
+  font-weight: 200;
+  src: url(https://m.media-amazon.com/images/S/sash/Dv1WQ5DdeMS5qP7.woff2)
+      format("woff2"),
+    url(https://m.media-amazon.com/images/S/sash/e0LnMbFWJC-TMQz.woff)
+      format("woff");
+}
+@font-face {
+  font-family: "Amazon Ember";
+  font-weight: 200;
+  font-style: italic;
+  src: url(https://m.media-amazon.com/images/S/sash/ozb5-CLHQWI6Soc.woff2)
+      format("woff2"),
+    url(https://m.media-amazon.com/images/S/sash/twzZHebXjCHBb6v.woff)
+      format("woff");
+}
+@font-face {
+  font-family: "Amazon Ember";
+  src: url(https://m.media-amazon.com/images/S/sash/pDxWAF1pBB0dzGB.woff2)
+      format("woff2"),
+    url(https://m.media-amazon.com/images/S/sash/kfKKBuoqcD$AUKL.woff)
+      format("woff");
+}
+@font-face {
+  font-family: "Amazon Ember";
+  font-style: italic;
+  src: url(https://m.media-amazon.com/images/S/sash/WOnTLzkiaEccV7F.woff2)
+      format("woff2"),
+    url(https://m.media-amazon.com/images/S/sash/JJsp0ZvgpfwzJM6.woff)
+      format("woff");
+}
+@font-face {
+  font-family: "Amazon Ember";
+  font-weight: 500;
+  src: url(https://m.media-amazon.com/images/S/sash/VjTR4RqBzY0mUYx.woff2)
+      format("woff2"),
+    url(https://m.media-amazon.com/images/S/sash/XIvhNCZAsrT80Wz.woff)
+      format("woff");
+}
+@font-face {
+  font-family: "Amazon Ember";
+  font-weight: 500;
+  font-style: italic;
+  src: url(https://m.media-amazon.com/images/S/sash/KwhNPG8Jz-Vz2X7.woff2)
+      format("woff2"),
+    url(https://m.media-amazon.com/images/S/sash/YAEPfuhs1l-argd.woff)
+      format("woff");
+}
+@font-face {
+  font-family: "Amazon Ember";
+  font-weight: 700;
+  src: url(https://m.media-amazon.com/images/S/sash/KFPk-9IF4FqAqY-.woff2)
+      format("woff2"),
+    url(https://m.media-amazon.com/images/S/sash/mzVbGSgvdBfRLX9.woff)
+      format("woff");
+}
+@font-face {
+  font-family: "Amazon Ember";
+  font-style: italic;
+  font-weight: 700;
+  src: url(https://m.media-amazon.com/images/S/sash/2SazJx$EeTHfhMN.woff2)
+      format("woff2"),
+    url(https://m.media-amazon.com/images/S/sash/CjbL$jCCegyfqZ7.woff)
+      format("woff");
+}
+.a-ember body {
+  font-family: "Amazon Ember", Arial, sans-serif;
+}
+.a-ember .a-text-quote {
+  font-family: "Amazon Ember", Arial, sans-serif;
+}
+:root{
+  --black-color:#0f1111;
+  --gray-color: #cccccc;
+  --dark-grey-color: #555555;
+  --white-color: #ffffff;
+  --yellow-color:#FFD814;
+  --yellow-hover-color:#FCD200;
+  --orange-color: #FFA41C;
+  --orange-hover-color: #f08804;
+  --green1-color:#007600;
+  --green2-color:#007185;
+  --middle-nav-bgc: #232f3e;
+
+
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.topNav{
+  display: flex;
+  /* height: 50px; */
+  width: 100vw;
+  background-color: var(--black-color);
+  padding: 5px 10px;
+  align-items: center;
+  color:#fff;
+  justify-content: center;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  padding: 5px 10px;
+
+}
+.box:hover{
+  border: 1px solid #fff;
+}
+
+.box .btn a{
+  display: flex;
+  
+}
+p, .botNav .leftBotNav ul li a, .botNav .rightBotNav li a {
+  font-family: "Amazon Ember";
+  font-size: 0.6rem;
+  font-weight: 500;
+}
+ .darkFont{
+  opacity: 0.8;
+  font-weight: 300;
+  
+  
+}
+
+.bolder{
+  
+  font-size: 0.7rem;
+font-weight: 700;
+}
+.insideNav{
+  flex-grow: 1;
+
+}
+.insideNav:hover{
+  border: none;
+}
+.one{
+  background: url('./asset/icons/iconsprite.png') no-repeat -10px -90px;
+	width: 80px;
+	height: 23px;
+  
+  
+}
+
+.btn{
+  background-color: #f3f3f3;
+  color: #000;
+  padding: 0.7rem 0.5rem;
+  /* justify-content: center; */
+  border-top-left-radius: 10%;
+  border-bottom-left-radius: 10%;
+
+}
+.btn a{
+  text-decoration: none;
+}
+.btn a p{
+  margin-right: 0.5rem;
+}
+.btn:hover{
+background-color: #dadada;
+}
+ .arrow{
+  background: url('./asset/icons/icons3.png') no-repeat -380px -13px;
+	width: 6px;
+	height: 9px;
+  color: #000;
+  transform: rotate(90deg);
+  -webkit-filter: invert(100%); 
+  filter: invert(100%);
+  opacity: 0.8;
+}
+ .arrowBtn{
+  background: url('./asset/icons/icons3.png') no-repeat -380px -13px;
+	width: 6px;
+	height: 9px;
+  color: #000;
+  transform: rotate(90deg);
+  
+}
+#name{
+
+  height: 35px;
+  flex-grow: 1;
+ 
+}
+a{
+  text-decoration: none;
+  display: flex;
+  color: #fff;
+}
+.topCenter a, .theBox {
+  color: #148fa5;
+  font-family: "Amazon Ember",sans-serif;
+  font-size: 10px;
+  line-height: 20px;
+  
+}
+.topCenter a:hover, .theBox:hover{
+  color: #cb5c2d;
+  text-decoration: underline;
+}
+.starNav ul{
+  display: flex;
+}
+.starNav li{
+  list-style: none;
+}
+.glass{
+
+    background-color:#fabd69;
+    padding: 0.4rem 0.4rem;
+    border-top-right-radius: 10%;
+  border-bottom-right-radius: 10%;
+  }
+  .glass:hover{
+    background-color:#f3a847;
+  }
+
+  .glass .glassIn{
+  background: url('./asset/icons/iconsprite.png') no-repeat -10px -290px;
+	width: 21px;
+	height: 21px;
+    
+  }
+  .flag{
+    background: url('./asset/icons/flags.png') no-repeat 0 -129px;
+	width: 24px;
+	height: 18.4px;
+  
+ margin-right: 0.2rem;
+  }
+
+   span{
+    display: block;
+   }   
+   .endItem{
+    height: 100%;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: flex-end; 
+   
+   
+   }
+   .location{
+    margin-right: 0.2rem;
+   }
+  .location img{
+    margin-bottom: 0.2rem;
+  }
+   .cart{
+    background: url('./asset/icons/iconsprite.png') no-repeat -218px -337px;
+	width: 41px;
+	height: 28px;
+  position: relative;
+ 
+   }   
+
+   .cart:before{
+content: '0';
+color: var(--orange-hover-color);
+position: absolute;
+top: 0;
+left: 1.25rem;
+   }
+
+   .secNav{
+    background-color: #232f3e;
+    display: flex;
+    padding: 6px 20px;
+    font-family: "Amazon Ember";
+    font-size: 0.7rem;
+    font-weight: 400;
+    justify-content: space-between;
+   }
+   .leftNav ul {
+    display: flex;
+   }
+   .leftNav ul li{
+    list-style: none;
+    padding: 0.3rem 0.5rem;
+    
+   }
+   .leftNav ul li:hover,  .rightItem:hover{
+    border: 1px solid #fff;
+   }
+  
+  .rightItem{
+    padding: 0.3rem 0.5rem;
+    
+    
+  }
+  .rightNav ul li{
+     list-style: none;
+
+   }
+
+
+   .botNav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5rem;
+    margin-top: 1rem;
+   }
+   .botNav .leftBotNav ul{
+    display: flex;
+   }
+
+   .botNav .leftBotNav ul li a, .botNav .rightBotNav li a {
+color: #565959;
+}
+.botNav .rightBotNav li, .botNav .leftBotNav ul li{
+     list-style: none;
+
+   }
+   .botNav .leftBotNav li{
+
+     margin-right: 0.5rem;
+   }
+   .botNav .leftBotNav ul li a.downLine:hover{
+    text-decoration: underline;
+   }
+.botNav .rightBotNav li{
+  opacity: 0.8;
+}
+.botNav .rightBotNav li:hover{
+  opacity:1;
+}
+
+main{
+  width: 100vw;
+  border: 1px solid blue;
+ padding:0 5rem;
+ display: flex;
+}
+.leftMain{
+  display: flex;
+}
+.gallery{
+  display: flex;
+  flex-direction: column;
+  width: 1.5rem;
+  /* justify-content: center; */
+  margin-top: 2rem;
+}
+.gallery img{
+  border: 1px solid #a2a6ac;
+  margin-bottom: 0.4rem;
+}
+.gallery img:hover{
+  border: 1px solid #e77600;
+  box-shadow: 2px 2px 2px #f4c79b, -2px -2px 2px #f4c79b;
+
+}
+
+.focusImg{
+  width: 300px;
+  height: 300px;
+  background: url('/asset/img/focus1.jpg') no-repeat center center/contain;
+  position: relative;
+
+}
+.focusImg img{
+  position: absolute;
+  top: 0;
+  left: 17rem;
+}
+.centerMain{
+  max-width:500px ;
+  margin:0.5rem 1rem;
+}
+.topCenter{
+  border-bottom:0.5px solid #e7e7e7 ;
+}
+.topCenter h1{
+  color: #565959;
+  font-weight: 400;
+  font-family: "Amazon Ember",Arial,sans-serif;
+  font-size: 18px!important;
+  line-height: 24px!important;
+  
+}
+.starNav li{
+  margin-right: 0.5rem;
+}
+
+.botCenter h3, .topAdd h3{
+  color: #B12704;
+  font-size: 13px;
+  line-height: 1rem;
+  font-weight: 400;
+  font-family: "Amazon Ember",Arial,sans-serif;
+
+}
+.botCenter h6, .topAdd h6{
+  color: #000;
+  font-size: 10px;
+  line-height: 20px;
+  font-family: "Amazon Ember",Arial,sans-serif;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+.topAdd h6{
+  font-size: 8px;
+  line-height: 12px;
+}
+.topAdd h3{
+  font-size: 10px;
+
+}
+ .botCenter h4, .rightBox h4{
+  font-size: 11px;
+    font-weight: 700;
+    line-height: 20px;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    color: #0F1111;
+}
+
+.botCenter ul{
+  margin-left: 1rem;
+}
+
+.botCenter ul li, .rightBox p{
+  color: #565959;
+  font-size: 10px;
+    line-height: 20px;
+    font-family: "Amazon Ember",Arial,sans-serif;
+
+}
+.insideCenter a{
+  padding-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  border-bottom:0.5px solid #e7e7e7 ;
+}
+
+.insideCenter a .leftBox{
+  display: flex;
+ 
+}
+.insideCenter a .leftBox .containArrow{
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  
+}
+.rightMain{
+  width: 140px;
+  text-align: center;
+  padding: 1rem 0;
+}
+.rightMain .topAdd{
+  border:0.5px solid #e7e7e7 ;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.topAdd .see {
+  border-radius: 0.3rem;
+  color: #000;
+  font-size: 8px;
+  line-height: 12px;
+  font-family: "Amazon Ember",Arial,sans-serif;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  background: var(--yellow-color);
+  padding: 0.2rem 0 ;
+  display: flex;
+  justify-content: center;
+}
+.topAdd .see:hover{
+  background: #f7ca00;
+ 
+}
+
+.to{
+  color: #148fa5; 
+  font-family: 'Amazon Ember',sans-serif; 
+  font-size: 8px;
+}
+.to:hover{
+  color: #cb5c2d;
+
+}
+
+.topAdd .sees {
+  border-radius: 0.1rem;
+  border: 1px solid #a2a6ac;
+  color: #000;
+  font-size: 8px;
+  line-height: 12px;
+  font-family: "Amazon Ember",Arial,sans-serif;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  background:#eeeff2;
+  padding: 0.2rem 0.2rem ;
+  display: flex;
+ 
+ 
+}
+.topAdd .sees:hover{
+  opacity: 0.8;
+ 
+}
+.twenyfive{
+  display: flex;
+  margin: 0.3rem 0;
+}
+.twenyfive, .centerAdd a h6{
+  color: #000; 
+  font-family: 'Amazon Ember',sans-serif; 
+  font-size: 8px;
+}
+.centerAdd a{
+  border:0.5px solid #e7e7e7 ;
+  border-radius: 0.1rem;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.cost{
+  color: #B12704;
+  font-size: 8px;
+  /* line-height: 1rem; */
+  font-weight: 400;
+  font-family: "Amazon Ember",Arial,sans-serif;
+  display: flex;
+}
+.cost .big{
+  font-size: 13px;
+  display: inline-block;
+}
+.money{
+  color: #B12704;
+  font-weight: 400;
+  font-family: "Amazon Ember",Arial,sans-serif;
+  display: flex;
+  font-size: 13px;
+}
+/* קרוסלה */
+.mySlides {display: none}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  /* height: 30px; */
+  padding: 0 0.5rem;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+ }
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev, .next {
+  background-color: #fff;
+  box-shadow: 1px 1px 1px #d5d9d9, -1px -1px 1px #d5d9d9;
+  height: 30px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color:rgba(0, 0, 0, 0.143) ;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
