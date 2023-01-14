@@ -22,6 +22,12 @@ To make a similar copy decorationly.
 
 
 
-איק 
+<h2> Link to Netlify:</h2>
+https://myamazonproject.netlify.app
+
+
+<h2> Phosoes of my web: </h2>
+![image](https://user-images.githubusercontent.com/121382608/212492358-caa2a565-706f-449a-8914-a87b8c874981.png)
+![image](https://user-images.githubusercontent.com/121382608/212492386-088d8a99-3292-4b6a-ae6c-505775c3967d.png)
 
   
